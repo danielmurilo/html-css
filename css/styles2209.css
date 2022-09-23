@@ -1,0 +1,41 @@
+h3 {
+    background-color: red;
+}
+
+.box1{
+    background-color: red;
+    padding: 16px;
+    margin: 10px;
+}
+
+.box2 {
+    background-color: coral;
+    padding: 80px 200px 40px 100px;
+    margin: 80px 200px 40px 100px;
+}
+
+.box3 {
+    background-color: green;
+    border: 2px dashed yellowgreen;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 10px;
+}
+
+.box4 {
+    background-color: brown;
+    width: 400px;
+    padding: 20px;
+    border: 5px solid green;
+}
+/**
+v limita o tamanho de todos os elementos com o indicador *
+*/
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 0px;
+    padding: 0px;
+    background-image: url("/img/ruabomjesus.jpg");
+}
